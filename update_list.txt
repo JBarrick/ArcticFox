@@ -66,3 +66,11 @@ INFORMATION
 05 08 2013
 http://softwareupdates.anritsu.com/en-us/MW82119A_Information_Message.txt
 </MESSAGE_ITEM>
+
+<MESSAGE_ITEM>
+MW82119A
+1.6 1.7 1.9
+CRITICAL
+29 07 2013
+http://softwareupdates.anritsu.com/en-us/MW82119A_Critical_Update_Message.txt
+</MESSAGE_ITEM>
