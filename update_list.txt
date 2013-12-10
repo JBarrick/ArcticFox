@@ -1,0 +1,68 @@
+# This is the list of available updates and messages for Anritsu Software and Hardware
+# There are 2 different types of blocks of information contained within this file: UPDATE_ITEMs
+# and MESSAGE_ITEMs. Each item must have all of its contents written in a specific order as
+# is defined below. If you do not follow this ordering schema, then the software trying
+# to parse this file will not work.
+#
+# The following is the format used for each update item. Make sure each item appears in this
+# EXACT order or else it will not work
+# <UPDATE_ITEM>
+# MODEL
+# VERSION
+# RELEASE_DATE (DD MM YYYY)
+# CHANGELOG_FILE_URL
+# SIZE_KB
+# UPDATE_FILE_URL
+# </UPDATE_ITEM>
+# 
+# The following is the format used for each message item. Make sure each item appears in this
+# EXACT order or else it will not work
+# <MESSAGE_ITEM>
+# MODEL
+# NONE|VERSION[-VERSION| VERSION[ VERSION]...]
+# CRITICAL|INFORMATION
+# RELEASE_DATE (DD MM YYYY)
+# MESSAGE_FILE_URL
+# </MESSAGE_ITEM>
+
+<UPDATE_ITEM>
+Line Sweep Tools
+1.50.500
+14 08 2013
+http://softwareupdates.anritsu.com/en-us/LST_V1.50.500_Customer_Service_Revision.txt
+10105
+http://softwareupdates.anritsu.com/en-us/LST_V1.50.0500_Update_Installer.exe
+</UPDATE_ITEM>
+
+<UPDATE_ITEM>
+MW82119A
+1.10
+29 07 2013
+http://softwareupdates.anritsu.com/en-us/MW82119A_V1.10_Changelog.exe
+17600
+http://softwareupdates.anritsu.com/en-us/MW82119A_V1.10_USBLoader.exe
+</UPDATE_ITEM>
+
+<MESSAGE_ITEM>
+Line Sweep Tools
+0-1.50
+CRITICAL
+14 08 2013
+http://softwareupdates.anritsu.com/en-us/LST_Critical_Update_Message.txt
+</MESSAGE_ITEM>
+
+<MESSAGE_ITEM>
+MW82119A
+1.6 1.7 1.9
+CRITICAL
+29 07 2013
+http://softwareupdates.anritsu.com/en-us/MW82119A_Critical_Update_Message.txt
+</MESSAGE_ITEM>
+
+<MESSAGE_ITEM>
+MW82119A
+NONE
+INFORMATION
+05 08 2013
+http://softwareupdates.anritsu.com/en-us/MW82119A_Information_Message.txt
+</MESSAGE_ITEM>
